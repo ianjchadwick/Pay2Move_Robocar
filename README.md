@@ -1,11 +1,8 @@
-# Arigato the Crypto Roboto
+# Pay2Move Robocar
 
 EC544 Networking the Physical World
 
 Spring 2022 Final Project
-
-
-
 
 This project deploys a Raspberry Pi robotic car, whose movements are controlled by payments to a crypto-wallet. The robot is subscribed to a movement command topic on an AWS MQTT server. Messages are published to that topic when the robot’s crypto-wallet receives currency, Dogecoin in this case. A user scans a QR code that appears on an e-ink display sitting on top of the robot. The display is controlled by a FRDM-64F board and it interfaces with the board via a custom PCB.
 
@@ -24,12 +21,6 @@ Our project employs various technologies, including low-level firmware, custom P
 - [Custom e-Ink Firmware](https://github.com/sfagin89/Arigato_Crypto_Roboto/tree/main/eink_firmware/development/eink_spi_firmware)
 - [Robot Software](https://github.com/sfagin89/Arigato_Crypto_Roboto/tree/main/RPi)
 - [Crypto App](https://github.com/sfagin89/Arigato_Crypto_Roboto/tree/main/crypto_app)
-
-## Implementation Video
-- [EC544 - Arigato Crypto Roboto](https://www.youtube.com/watch?v=zG-Wq4VXOKg)
-
-## Final Report
-- [Final Report](https://github.com/sfagin89/Arigato_Crypto_Roboto/blob/main/Final%20Project%20Report.pdf)
 
 ## Custom PCB Schematic and Board Layout
 
